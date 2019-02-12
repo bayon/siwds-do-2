@@ -1,0 +1,79 @@
+/*
+ Theme Name:   SiteOrigin-North-Child
+ Theme URI:    http://example.com/SiteOrigin-North-Child/
+ Description:  SiteOrigin-North-Child
+ Author:       Bayon Forte
+ Author URI:   https://www.sprite-pilot.com
+ Template:     siteorigin-north
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  SiteOrigin-North-Child
+*/
+
+
+#pg-w5ab2f5655cce1-3 .panel-widget-style  {
+     background: rgba(2, 2, 2, .75) !important;
+}
+#pg-w5ab2f5655cce1-1 .panel-widget-style  {
+     background: rgba(0, 0, 0, .75) !important;
+}
+.sub-menu ul{
+    
+   list-style:none !important;
+   
+}
+.site-header{
+     
+    
+}
+h1{
+    font-size:2em !important;
+    color:#222;
+}
+h3.widget-title{
+    font-weight:bold;
+}
+
+h1.header_h1{ 
+    font-size:2.5em !important;
+    text-shadow: 1px 1px #000000  !important;
+    color:#fff;
+    
+}
+h2.header_h2{ 
+    font-size:1.5em  !important;
+    text-shadow: 1px 1px #000000  !important;
+    color:#ddd;
+    
+}
+ 
+.comments-area{
+    display:none !important;
+}
+.dwd-post-img{
+    width:50%; 
+    height :auto;
+}
+@media (min-width: 0px) and (max-width: 768px) { 
+    .site-branding{
+        padding-right:0px;
+    }
+    h1.site-title{
+        
+    }
+    h1 {
+        font-size:1.6em !important;
+    }
+     h1.header_h1{ 
+        font-size:1.4em !important;
+    }
+    h2.header_h2{ 
+        font-size:1.2em  !important;
+    }
+    .dwd-post-img{
+        width:100%; 
+        height :auto;
+    }
+}
